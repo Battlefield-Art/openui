@@ -3,9 +3,8 @@ import type { Metadata } from "next";
 import "./styles.css";
 
 export const metadata: Metadata = {
-  title: "Data analyst | OpenUI cookbook",
-  description:
-    "Explore data through conversation with streaming charts, comparisons, and clear answers.",
+  title: "Booking assistant | OpenUI cookbook",
+  description: "Turn a request for a stay into a prefilled form, live hotel prices, and a booking.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
